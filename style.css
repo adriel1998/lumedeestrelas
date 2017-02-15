@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	height: 100%;
+}
+body {
+	background: blue;
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: green;
+	width: 100%;
+	
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.rd-social {
+	align-self: flex-end;
+}
+.rd-social ul li {
+	display: inline;
+}
+
+.icon {
+	width: 45px;
+	/*height: 45px;*/
+	border-radius: 50%;
+}
+.fundoescudo {
+	display: flex;
+	justify-content: center;
+	background: green;
+	/*position: absolute;*/
+	width: 100%;
+	/*height: 340px;*/
+	/*top: 150px;
+	left: 200px;*/
+}
+.banner {
+	width: 100%;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 5px;
+	font-size: 25px;
+}
+.menu ul li a:houver{
+	background: rgba(0, 0, 0, 0.2);
+	cursor: pointer; 
+}

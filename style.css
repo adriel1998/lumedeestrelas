@@ -8,7 +8,7 @@ html {
 	height: 100%;
 }
 body {
-	background: blue;
+	background: url(grama.jpg);
 	font-family: 'Montserrat', Arial, sans-serif;
 }
 header {
@@ -57,6 +57,7 @@ header {
 	justify-content: center;
 	/*border: solid 2px lightgreen;*/
 	/*width: 100%;*/
+	background: rgba(0, 0, 0, 0.3);
 }
 .menu ul li{
 	display: inline;
@@ -69,7 +70,7 @@ header {
 	transition: box-shadow, width 0.05s;
 }
 .menu ul li:hover {
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(100, 100, 255, 0.3);
 	cursor: pointer; 
 	border-radius: 15px 15px 0px 0px;
 	/*margin: 0px 10px;*/
@@ -77,12 +78,17 @@ header {
 	border-width: 0px 0px 5px 0px;*/
 	width: 110px;
     box-shadow:0px 5px 0px #000;
+    border:solid 1px rgb(100, 100, 255);
+    border-bottom:0px;
 
 }
 .menu ul li a{
 	padding: 5px;
-	color: #000;
+	color: #fff;
 	text-decoration: none;
+	/*text-shadow: 1px 1px 2px #fff;*/
+/*	background: rgba(0, 100, 0, 0.6);
+	border-radius: 15px 15px 0px 0px;*/
 	
 }
 
@@ -130,3 +136,56 @@ Com animação fizemos com que as imagens mudassem automaticamente.*/
   animation: 10s slide infinite; 
 }
 /*Aqui termina nosso Slider.*/
+.bola {
+	left: 1050px;
+	top: 740px;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+}
+
+footer {
+	color: white;
+}
+.cont-jog {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10px;
+
+}
+.cont-jog section {
+	display: flex;
+	flex-direction: column;
+	margin: 2px;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+	width: 200px;
+	height: 200px;
+}
+.cont-jog section img {
+	height: 150px;
+}
+.cont-jog section p {
+	font-size: 15px;
+	color: #fff
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
